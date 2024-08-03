@@ -30,9 +30,15 @@ class _AntinnaAppState extends State<AntinnaApp> {
 
   @override
   void didChangeDependencies() {
-    // HashUrlStrategy();
-    RendererBinding.instance.allowFirstFrame(); //Allow the first Frame
+    allowFirstFrame();
     super.didChangeDependencies();
+  }
+
+  void allowFirstFrame() {
+    final renderer = RendererBinding.instance;
+    if (!renderer.sendFramesToEngine) {
+      renderer.allowFirstFrame();
+    }
   }
 
   @override
