@@ -1,9 +1,11 @@
 import 'dart:io';
+import 'dart:ui_web';
 
 import 'package:antinna/config/config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show RendererBinding;
 
 class AntinnaApp extends StatefulWidget {
   const AntinnaApp({super.key, required this.config});
@@ -21,7 +23,16 @@ class _AntinnaAppState extends State<AntinnaApp> {
   @override
   void initState() {
     //  _deviceTypeNotifier.init();
+    RendererBinding.instance
+        .deferFirstFrame(); //hold the first frame , untill show the platform default Native Splash if not then white color screen
     super.initState();
+  }
+
+  @override
+  void didChangeDependencies() {
+    // HashUrlStrategy();
+    RendererBinding.instance.allowFirstFrame(); //Allow the first Frame
+    super.didChangeDependencies();
   }
 
   @override
