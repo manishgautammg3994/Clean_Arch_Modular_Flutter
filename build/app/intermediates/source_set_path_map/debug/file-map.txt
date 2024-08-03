@@ -1,0 +1,12 @@
+com.antinna.app-core-1.6.0-0 /home/user/.gradle/caches/8.9/transforms/48c840758b0867e74a14084fd39b5ad1/transformed/core-1.6.0/res
+com.antinna.app-jetified-window-java-1.0.0-beta04-1 /home/user/.gradle/caches/8.9/transforms/7f5db3c55b19c73836e1153bca3b2ff3/transformed/jetified-window-java-1.0.0-beta04/res
+com.antinna.app-jetified-window-1.0.0-beta04-2 /home/user/.gradle/caches/8.9/transforms/93e1bd514003a8d1b21fd99c2b1b08ab/transformed/jetified-window-1.0.0-beta04/res
+com.antinna.app-jetified-annotation-experimental-1.1.0-3 /home/user/.gradle/caches/8.9/transforms/e9c3a30bd4f492e48d2d4f8bfa86ca5d/transformed/jetified-annotation-experimental-1.1.0/res
+com.antinna.app-debug-4 /home/user/myapp/android/app/src/debug/res
+com.antinna.app-main-5 /home/user/myapp/android/app/src/main/res
+com.antinna.app-pngs-6 /home/user/myapp/build/app/generated/res/pngs/debug
+com.antinna.app-resValues-7 /home/user/myapp/build/app/generated/res/resValues/debug
+com.antinna.app-rs-8 /home/user/myapp/build/app/generated/res/rs/debug
+com.antinna.app-mergeDebugResources-9 /home/user/myapp/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.antinna.app-mergeDebugResources-10 /home/user/myapp/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.antinna.app-merged_res-11 /home/user/myapp/build/app/intermediates/merged_res/debug
