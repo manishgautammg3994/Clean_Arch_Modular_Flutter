@@ -4581,6 +4581,13 @@ fake_async
    See the License for the specific language governing permissions and
    limitations under the License.
 --------------------------------------------------------------------------------
+component
+dependencies
+preferences
+
+TODO: Add your license here.
+
+--------------------------------------------------------------------------------
 cupertino_icons
 
 The MIT License (MIT)
