@@ -1,4 +1,8 @@
 # antinna
+```bash
+find . -type d -empty -exec touch {}/.gitkeep \;
+
+```
 
 A new Flutter project.
 
